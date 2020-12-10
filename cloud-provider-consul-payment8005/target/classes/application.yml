@@ -1,0 +1,12 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: server-provider-consul
+  cloud:
+    consul:
+      host: localhost  #consul的ip地址
+      port: 8500    #consul的段端口号
+      discovery:
+        register-health-check: false  #不进行检查机制
+        service-name: ${spring.application.name}

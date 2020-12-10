@@ -1,0 +1,5 @@
+com\shiwen\service\FeignService.class
+com\shiwen\config\OpenFeignConfig.class
+com\shiwen\OpenFeignApplication.class
+com\shiwen\service\impl\FeignServiceImpl.class
+com\shiwen\controller\FeignController.class

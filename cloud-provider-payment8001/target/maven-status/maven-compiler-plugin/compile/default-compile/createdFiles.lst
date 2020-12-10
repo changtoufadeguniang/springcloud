@@ -1,0 +1,6 @@
+com\shiwen\service\impl\PaymentServiceImpl.class
+com\shiwen\service\PaymentService.class
+com\shiwen\ProviderApplication.class
+com\shiwen\controller\DiscoveryClientController.class
+com\shiwen\controller\PaymentController.class
+com\shiwen\dao\PaymentDao.class

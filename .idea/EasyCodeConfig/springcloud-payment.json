@@ -1,0 +1,26 @@
+{
+  "name" : "Payment",
+  "preName" : "",
+  "comment" : "支付表",
+  "templateGroupName" : "Default",
+  "fullColumn" : [ {
+    "name" : "name",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.shiwen",
+  "savePath" : "./cloud-provider-payment8001/src/main/java/com/shiwen",
+  "saveModelName" : "cloud-provider-payment8001"
+}

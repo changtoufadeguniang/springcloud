@@ -1,0 +1,21 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: cloud-payment-servic
+  devtools:
+    restart:
+      enabled: true  #开启热部署
+logging:
+  level:
+    com.shiwen: debug
+    root: info
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/ #单机版
+      #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ #集群版
+
+
